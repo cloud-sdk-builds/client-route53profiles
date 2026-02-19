@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-route53profiles`](https://www.npmjs.com/package/@aws-sdk/client-route53profiles/v/3.772.0).
+[`@aws-sdk/client-route53profiles`](https://www.npmjs.com/package/@aws-sdk/client-route53profiles/v/3.774.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.772.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.774.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-cwGkRBG9M4DMQNJxiAujVKQPrMAXv3MYPmhR2qC4fWrCLxjy0bbICqTXLHNl+ziO
+sha384-sQVwaLbrk+5rpiyBwB7J2wIzyQ0fT0L/W7+bn1C4UEiJtPgtvSsFqy9HtmHF+rdo
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-route53profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.772.0/index.min.mjs"
+            "@aws-sdk/client-route53profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.774.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.772.0/index.min.mjs": "sha384-cwGkRBG9M4DMQNJxiAujVKQPrMAXv3MYPmhR2qC4fWrCLxjy0bbICqTXLHNl+ziO"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.774.0/index.min.mjs": "sha384-sQVwaLbrk+5rpiyBwB7J2wIzyQ0fT0L/W7+bn1C4UEiJtPgtvSsFqy9HtmHF+rdo"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-route53profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.772.0/index.min.mjs"
+                        "@aws-sdk/client-route53profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.774.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.772.0/index.min.mjs": "sha384-cwGkRBG9M4DMQNJxiAujVKQPrMAXv3MYPmhR2qC4fWrCLxjy0bbICqTXLHNl+ziO"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53profiles@3.774.0/index.min.mjs": "sha384-sQVwaLbrk+5rpiyBwB7J2wIzyQ0fT0L/W7+bn1C4UEiJtPgtvSsFqy9HtmHF+rdo"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.772.0`)
+* Always pin to a specific version (`@3.774.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-route53profiles/blob/refs/tags/3.772.0/LICENSE
+https://github.com/cloud-sdk-builds/client-route53profiles/blob/refs/tags/3.774.0/LICENSE
 ```
 
 ---
